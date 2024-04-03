@@ -54,7 +54,19 @@ const fun = (x,y)=>{
 // count1(val);
 
 // Practice question : print the sq roots of numerbs in an array by using call back functions
-let arr = [1,2,3,4];
-arr.forEach( (value)=>{
-    console.log(value*value);
+// let arr = [1,2,3,4];
+// arr.forEach( (value)=>{
+//     console.log(value*value);
+
+
+// })Practice Question: print the largest element in an array:
+let arr = [1,5,3,56,34,789];
+let final = arr.reduce((cur,next)=>{
+    if(cur>next){
+        return cur;
+    }
+    else{
+        return next
+    }
 })
+console.log(final);
