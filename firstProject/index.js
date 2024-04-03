@@ -60,13 +60,22 @@ const fun = (x,y)=>{
 
 
 // })Practice Question: print the largest element in an array:
-let arr = [1,5,3,56,34,789];
-let final = arr.reduce((cur,next)=>{
-    if(cur>next){
-        return cur;
-    }
-    else{
-        return next
+// let arr = [1,5,3,56,34,789];
+// let final = arr.reduce((cur,next)=>{
+//     if(cur>next){
+//         return cur;
+//     }
+//     else{
+//         return next
+//     }
+// })
+// console.log(final);
+
+//filter out the students who scored more than 90
+let marks = [78,36,98,57,65,92,100,28,94,93,45,97,99]
+let marks90 = marks.filter((val)=>{
+    if(val>90){
+        return val;
     }
 })
-console.log(final);
+console.log(marks90);
