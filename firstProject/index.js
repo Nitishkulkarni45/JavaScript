@@ -72,10 +72,32 @@ const fun = (x,y)=>{
 // console.log(final);
 
 //filter out the students who scored more than 90
-let marks = [78,36,98,57,65,92,100,28,94,93,45,97,99]
-let marks90 = marks.filter((val)=>{
-    if(val>90){
-        return val;
-    }
-})
-console.log(marks90);
+// let marks = [78,36,98,57,65,92,100,28,94,93,45,97,99]
+// let marks90 = marks.filter((val)=>{
+//     if(val>90){
+//         return val;
+//     }
+// })
+// console.log(marks90);
+
+function toDarkmode() {
+    const containers = document.getElementsByClassName("container");
+    // Loop through all elements with class "container"
+    // for (let container of containers) {
+    //     // Check if current background color is light
+    //     if (container.style.backgroundColor === '' || container.style.backgroundColor === 'white') {
+    //         // Change background color to dark
+    //         container.style.backgroundColor = '#222'; // Example dark background color
+    //         container.style.color = '#fff'; // Example text color
+    //     } else {
+    //         // Change background color back to light
+    //         container.style.backgroundColor = 'white'; // Example light background color
+    //         container.style.color = '#000'; // Example text color
+    //     }
+    // }
+    console.log(containers);
+}
+
+// let div  = document.querySelector("h1");
+// div.innerText=div.innerText + "how are you?";
+
