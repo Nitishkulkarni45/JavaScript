@@ -25,3 +25,16 @@ const fun = (x,y)=>{
  let v = x + y;
  console.log(v);
 }
+
+//practice question: take a string as an argument and count the vowels in it
+let str = prompt("Enter the name");
+function count(string){
+    let cnt = 0;
+    for(let char of string){
+       if(char == 'a'||char == 'e'||char == 'i'||char == 'o'||char == 'u'){
+        cnt++;
+       }
+    }
+    console.log(cnt);
+}
+count(str);
