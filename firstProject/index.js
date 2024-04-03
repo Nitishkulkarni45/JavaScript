@@ -27,14 +27,28 @@ const fun = (x,y)=>{
 }
 
 //practice question: take a string as an argument and count the vowels in it
-let str = prompt("Enter the name");
-function count(string){
-    let cnt = 0;
-    for(let char of string){
-       if(char == 'a'||char == 'e'||char == 'i'||char == 'o'||char == 'u'){
-        cnt++;
-       }
+// let str = prompt("Enter the name");
+// function count(string){
+//     let cnt = 0;
+//     for(let char of string){
+//        if(char == 'a'||char == 'e'||char == 'i'||char == 'o'||char == 'u'){
+//         cnt++;
+//        }
+//     }
+//     console.log(cnt);
+// }
+// count(str);
+
+// The same code using arrow functions
+let val = prompt("Enter your name");
+let count1 = (str)=>{
+let ct = 0;
+for(let car of str){
+    if(car == 'a'||car == 'e'||car == 'i'||car =='o'||car == 'u'){
+        ct++;
     }
-    console.log(cnt);
+    
 }
-count(str);
+console.log(ct);
+}
+count1(val);
