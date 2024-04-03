@@ -11,6 +11,17 @@
 //     }
 //     console.log("name =",namee);
 // }
-let fullName = prompt("Enter you name");
-let userName = "@"+fullName+fullName.length;
-console.log(userName);
+
+
+// let fullName = prompt("Enter you name");
+// let userName = "@"+fullName+fullName.length;
+// console.log(userName);
+
+//-----------------------------------------------------------------------------------------------
+//Day-3
+// learning arrow functions
+//Arrow function value will be always stored in a variable 
+const fun = (x,y)=>{
+ let v = x + y;
+ console.log(v);
+}
