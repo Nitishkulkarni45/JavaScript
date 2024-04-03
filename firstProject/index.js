@@ -40,15 +40,21 @@ const fun = (x,y)=>{
 // count(str);
 
 // The same code using arrow functions
-let val = prompt("Enter your name");
-let count1 = (str)=>{
-let ct = 0;
-for(let car of str){
-    if(car == 'a'||car == 'e'||car == 'i'||car =='o'||car == 'u'){
-        ct++;
-    }
+// let val = prompt("Enter your name");
+// let count1 = (str)=>{
+// let ct = 0;
+// for(let car of str){
+//     if(car == 'a'||car == 'e'||car == 'i'||car =='o'||car == 'u'){
+//         ct++;
+//     }
     
-}
-console.log(ct);
-}
-count1(val);
+// }
+// console.log(ct);
+// }
+// count1(val);
+
+// Practice question : print the sq roots of numerbs in an array by using call back functions
+let arr = [1,2,3,4];
+arr.forEach( (value)=>{
+    console.log(value*value);
+})
