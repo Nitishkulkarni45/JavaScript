@@ -80,8 +80,8 @@ const fun = (x,y)=>{
 // })
 // console.log(marks90);
 
-function toDarkmode() {
-    const containers = document.getElementsByClassName("container");
+// function toDarkmode() {
+    // const containers = document.getElementsByClassName("container");
     // Loop through all elements with class "container"
     // for (let container of containers) {
     //     // Check if current background color is light
@@ -95,9 +95,16 @@ function toDarkmode() {
     //         container.style.color = '#000'; // Example text color
     //     }
     // }
-    console.log(containers);
-}
+    // console.log(containers);
+// }
 
 // let div  = document.querySelector("h1");
 // div.innerText=div.innerText + "how are you?";
 
+//targeting the attributes
+function changeTo(){
+    let containers = document.querySelector("div");
+    // let val  = containers.getAttribute("class");
+    
+    console.log(containers.setAttribute("class","newClas"));
+}
