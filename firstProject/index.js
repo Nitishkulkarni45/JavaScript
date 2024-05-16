@@ -102,9 +102,22 @@ const fun = (x,y)=>{
 // div.innerText=div.innerText + "how are you?";
 
 //targeting the attributes
-function changeTo(){
-    let containers = document.querySelector("div");
-    // let val  = containers.getAttribute("class");
+// function changeTo(){
+//     let containers = document.querySelector("button");
+//     let div  = document.querySelector("div");
+//     // console.log(val.setAttribute("conatiner","newcontainer"));
+//     // let val  = containers.getAttribute("class");
+//     div.style.backgroundColor = "pink";
+//     div.style.height = "800px";
     
-    console.log(containers.setAttribute("class","newClas"));
-}
+//     console.log(containers.setAttribute("class","newClass"));
+// }
+
+
+//higher order function 
+let arr = [1,2,3,4];
+
+arr.forEach((val)=>{
+console.log(val+1);
+});
+
