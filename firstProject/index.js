@@ -21,10 +21,10 @@
 //Day-3
 // learning arrow functions
 //Arrow function value will be always stored in a variable 
-const fun = (x,y)=>{
- let v = x + y;
- console.log(v);
-}
+// const fun = (x,y)=>{
+//  let v = x + y;
+//  console.log(v);
+// }
 
 //practice question: take a string as an argument and count the vowels in it
 // let str = prompt("Enter the name");
@@ -115,9 +115,16 @@ const fun = (x,y)=>{
 
 
 //higher order function 
-let arr = [1,2,3,4];
+// let arr = [1,2,3,4];
 
-arr.forEach((val)=>{
-console.log(val+1);
-});
+// arr.forEach((val)=>{
+// console.log(val+1);
+// });
 
+//DOM
+
+const print = ()=>{
+    // let cnt = 0;
+    console.log("hello");
+  
+}
